@@ -44,7 +44,7 @@ fork的使用说明
 
 ## 1.首先进入要进行操作的文件夹位置(forktest文件夹)，右键打开gitbash，更新原始库，输入：
 * $ git remote add upstream git@github.com:lnkDrop/forktest.git
-* $ git fetch upstream
+* $ git pull origin master
 
 ## 2.在本地做出修改，完成后提交到你自己fork出来的项目主页上，输入
 * $ git commit -m '备注信息'
