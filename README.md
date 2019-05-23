@@ -51,5 +51,7 @@ fork的使用说明
 * $ git push "fork出来的地址(第一条第3点中的地址)"
 
 ## 3.在Github上向原作者提交更改请求，打开fork的项目，在项目主页点击new pull request,就会出现如图所示的图标，点击绿色图标按钮，添加修改描述，提交成功后只需要等待主开发者去合并就可以了。
+![](https://raw.githubusercontent.com/lnkDrop/forktest/master/img/qingqiu.png)
+![](https://raw.githubusercontent.com/lnkDrop/forktest/master/img/tubiao.png)
 
 
