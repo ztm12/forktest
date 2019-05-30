@@ -22,7 +22,7 @@ fork的使用说明
 ![](https://raw.githubusercontent.com/lnkDrop/forktest/master/img/wenjianjia.png)
 ![](https://raw.githubusercontent.com/lnkDrop/forktest/master/img/name.png)
 ## 2.接下来要把你修改的信息上传，在forktest文件夹中右键打开gitbash，输入
-- $ git add .
+- $ git add 
 - $ git commit -m '备注信息'
 - $ git push -u origin master
 
@@ -42,7 +42,7 @@ fork的使用说明
 
 # 三、分支内容修改和删除
 
-## 1.对fork的内容进行操作前，需要保持库为最新版本，首先进入要进行操作的文件夹位置(forktest文件夹)，右键打开gitbash，更新原始库，输入：
+## 1.首先进入要进行操作的文件夹位置(forktest文件夹)，右键打开gitbash，更新原始库，输入：
 * $ git remote add upstream git@github.com:lnkDrop/forktest.git
 * $ git pull origin master
 
