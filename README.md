@@ -30,7 +30,7 @@ fork的使用说明
 ![](https://raw.githubusercontent.com/lnkDrop/forktest/master/img/newFork1.png)
 ## 4.点击new pull requests
 * ![](https://raw.githubusercontent.com/lnkDrop/forktest/master/img/newfork2.png)
-## 5.注意红框中的是你fork下来修改的库名，黄框是原作者的库名。确认无误后点击Create
+## 5.注意红框中的是你fork下来修改的库名，黄框是原作者的库名。注意主从顺序，我们是要提交到原仓库，所以应该是（从-->主）；确认无误后点击Create
 * ![](https://raw.githubusercontent.com/lnkDrop/forktest/master/img/newfork4.png)
 ![](https://raw.githubusercontent.com/lnkDrop/forktest/master/img/newfork3.png)
 ## 6.填入文档说明，然后点击Create Pull requests，显示提交成功，接下来只需要由我确认合并你修改的文件就能显示在此项目中了。
@@ -42,16 +42,7 @@ fork的使用说明
 
 # 三、分支内容修改和删除
 
-## 1.对fork的内容进行操作前，需要保持库为最新版本，首先进入要进行操作的文件夹位置(forktest文件夹)，右键打开gitbash，更新原始库，输入：
-* $ git remote add upstream git@github.com:lnkDrop/forktest.git
-* $ git pull origin master
-
-## 2.在本地做出修改，完成后提交到你自己fork出来的项目主页上，输入
-* $ git commit -m '备注信息'
-* $ git push "fork出来的地址(第一条第3点中的地址)"
-
-## 3.在Github上向原作者提交更改请求，打开fork的项目，在项目主页点击new pull request,就会出现如图所示的图标，点击绿色图标按钮，添加修改描述，提交成功后只需要等待主开发者去合并就可以了。
-![](https://raw.githubusercontent.com/lnkDrop/forktest/master/img/qingqiu.png)
-![](https://raw.githubusercontent.com/lnkDrop/forktest/master/img/tubiao.png)
-
-
+## 1.对fork的内容进行操作前，需要保持库为最新版本，先更新自己的分支，因为要从主仓库更新所以逻辑顺序是(主-->从)
+* 先点击New pull request进入拉取请求界面
+* 注意如果没有分支选项先点击compare across forks
+* 红色框里是主仓库文件，黄色框是你自己的Fork库文件，注意顺序，然后输入备注和说明一路点击绿色按钮提交完
